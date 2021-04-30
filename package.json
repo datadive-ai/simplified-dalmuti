@@ -4,15 +4,13 @@
   "description": "dalmuti online game using socket.io",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js -L"
   },
   "author": "MG",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",
-    "socket.io": "^2.0.4"
-  },
-  "engines": {
-    "node": "8.9.3"
+    "socket.io": "^2.0.4",
+    "nodemon": "^2.0.6"
   }
 }

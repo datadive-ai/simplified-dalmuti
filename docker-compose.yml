@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  dalmuti:
+    build: .
+    ports:
+      - '8080:8080'
+    volumes:
+      - .:/usr/app
+    command: yarn start
